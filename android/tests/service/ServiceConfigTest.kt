@@ -1,6 +1,7 @@
 package com.follow.clash.service
 
 import com.follow.clash.common.AccessControlMode
+import com.follow.clash.service.modules.shouldUseLiveUpdate
 import com.follow.clash.service.models.AccessControlProps
 import com.follow.clash.service.models.NotificationParams
 import com.follow.clash.service.models.VpnOptions
@@ -29,6 +30,13 @@ private fun vpnOptions(port: Int) = VpnOptions(
 )
 
 class ServiceConfigTest {
+    @Test
+    fun `live update is only enabled on Android 16 and newer`() {
+        assertEquals(false, shouldUseLiveUpdate(true, 35))
+        assertEquals(true, shouldUseLiveUpdate(true, 36))
+        assertEquals(false, shouldUseLiveUpdate(false, 36))
+    }
+
     @Test
     fun `notification params default to the app name and stop label`() {
         val defaults = NotificationParams()

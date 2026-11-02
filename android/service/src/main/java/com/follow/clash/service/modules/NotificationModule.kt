@@ -7,6 +7,7 @@ import android.content.Intent
 import android.os.Build
 import android.os.PowerManager
 import androidx.core.app.NotificationCompat
+import androidx.core.graphics.drawable.IconCompat
 import androidx.core.content.getSystemService
 import com.follow.clash.common.Components
 import com.follow.clash.common.GlobalState
@@ -38,6 +39,9 @@ private data class ExtendedNotificationParams(
     val contentText: String,
     val liveUpdateNotification: Boolean,
 )
+
+internal fun shouldUseLiveUpdate(enabled: Boolean, sdkInt: Int): Boolean =
+    enabled && sdkInt >= 36
 
 private val NotificationParams.extended: ExtendedNotificationParams
     get() = ExtendedNotificationParams(
@@ -112,12 +116,36 @@ internal class NotificationModule(
 
     private val stopIntent by lazy { QuickAction.STOP.quickIntent.toPendingIntent }
 
+    private val liveUpdateStyle by lazy {
+        NotificationCompat.ProgressStyle()
+            .setProgressIndeterminate(true)
+            .setProgressTrackerIcon(
+                IconCompat.createWithResource(service, R.drawable.ic_service),
+            )
+            .addProgressSegment(
+                NotificationCompat.ProgressStyle.Segment(100)
+                    .setColor(service.getColor(android.R.color.holo_blue_light)),
+            )
+    }
+
     private fun update(params: ExtendedNotificationParams) {
+        val liveUpdate = shouldUseLiveUpdate(
+            params.liveUpdateNotification,
+            Build.VERSION.SDK_INT,
+        )
         service.startForeground(
             with(notificationBuilder) {
                 setContentTitle(params.title)
                 setContentText(params.contentText)
-                setRequestPromotedOngoing(params.liveUpdateNotification)
+                setCategory(
+                    if (liveUpdate) {
+                        NotificationCompat.CATEGORY_PROGRESS
+                    } else {
+                        NotificationCompat.CATEGORY_SERVICE
+                    },
+                )
+                setRequestPromotedOngoing(liveUpdate)
+                setStyle(if (liveUpdate) liveUpdateStyle else null)
                 clearActions()
                 if (params.showStopAction) {
                     addAction(0, params.stopText, stopIntent)

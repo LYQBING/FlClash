@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "E:\\Users Data\\Desktop\\FlClash-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MardownSecureEdit"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
     },
     {
@@ -132,6 +135,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\ServiceStateMachineTest.kt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:android\\tests\\app\\ServiceStateMachineTest.kt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\.github\\workflows\\build.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\build.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -141,11 +148,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
+              "Title": "build.yaml",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\.github\\workflows\\build.yaml",
+              "RelativeDocumentMoniker": ".github\\workflows\\build.yaml",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\.github\\workflows\\build.yaml",
+              "RelativeToolTip": ".github\\workflows\\build.yaml",
+              "ViewState": "AgIAAFgBAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-11-02T03:05:18.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "plan-android.md",
+              "DocumentMoniker": "C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md",
+              "ToolTip": "C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-02T02:59:06.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "ServiceStateMachineTest.kt",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\ServiceStateMachineTest.kt",
               "RelativeDocumentMoniker": "android\\tests\\app\\ServiceStateMachineTest.kt",
@@ -157,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "SharedStateTest.kt",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\SharedStateTest.kt",
               "RelativeDocumentMoniker": "android\\tests\\app\\SharedStateTest.kt",
@@ -169,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ServiceConfigTest.kt",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\service\\ServiceConfigTest.kt",
               "RelativeDocumentMoniker": "android\\tests\\service\\ServiceConfigTest.kt",
@@ -181,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "state_derived_test.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\test\\providers\\state_derived_test.dart",
               "RelativeDocumentMoniker": "test\\providers\\state_derived_test.dart",
@@ -193,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "config_test.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\test\\models\\config_test.dart",
               "RelativeDocumentMoniker": "test\\models\\config_test.dart",
@@ -205,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "plan-android.md [\u9884\u89C8]",
               "DocumentMoniker": "C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md",
               "ToolTip": "C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md [\u9884\u89C8]",
@@ -215,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "messages_ru.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\intl\\messages_ru.dart",
               "RelativeDocumentMoniker": "lib\\l10n\\intl\\messages_ru.dart",
@@ -227,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "messages_ko.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\intl\\messages_ko.dart",
               "RelativeDocumentMoniker": "lib\\l10n\\intl\\messages_ko.dart",
@@ -239,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "messages_ja.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\intl\\messages_ja.dart",
               "RelativeDocumentMoniker": "lib\\l10n\\intl\\messages_ja.dart",
@@ -247,12 +278,11 @@
               "RelativeToolTip": "lib\\l10n\\intl\\messages_ja.dart",
               "ViewState": "AgIAAMAFAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:32.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:32.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "messages_fr.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\intl\\messages_fr.dart",
               "RelativeDocumentMoniker": "lib\\l10n\\intl\\messages_fr.dart",
@@ -264,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "messages_es.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\intl\\messages_es.dart",
               "RelativeDocumentMoniker": "lib\\l10n\\intl\\messages_es.dart",
@@ -276,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "messages_zh_CN.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\intl\\messages_zh_CN.dart",
               "RelativeDocumentMoniker": "lib\\l10n\\intl\\messages_zh_CN.dart",
@@ -288,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "messages_en.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\intl\\messages_en.dart",
               "RelativeDocumentMoniker": "lib\\l10n\\intl\\messages_en.dart",
@@ -300,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "l10n.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\l10n.dart",
               "RelativeDocumentMoniker": "lib\\l10n\\l10n.dart",
@@ -312,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "NotificationModule.kt",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\service\\src\\main\\java\\com\\follow\\clash\\service\\modules\\NotificationModule.kt",
               "RelativeDocumentMoniker": "android\\service\\src\\main\\java\\com\\follow\\clash\\service\\modules\\NotificationModule.kt",
@@ -324,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "intl_ru.arb",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\arb\\intl_ru.arb",
               "RelativeDocumentMoniker": "arb\\intl_ru.arb",
@@ -336,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "intl_ko.arb",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\arb\\intl_ko.arb",
               "RelativeDocumentMoniker": "arb\\intl_ko.arb",
@@ -348,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "intl_ja.arb",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\arb\\intl_ja.arb",
               "RelativeDocumentMoniker": "arb\\intl_ja.arb",
@@ -360,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "intl_fr.arb",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\arb\\intl_fr.arb",
               "RelativeDocumentMoniker": "arb\\intl_fr.arb",
@@ -372,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "intl_es.arb",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\arb\\intl_es.arb",
               "RelativeDocumentMoniker": "arb\\intl_es.arb",
@@ -384,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "intl_zh_CN.arb",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\arb\\intl_zh_CN.arb",
               "RelativeDocumentMoniker": "arb\\intl_zh_CN.arb",
@@ -396,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "intl_en.arb",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\arb\\intl_en.arb",
               "RelativeDocumentMoniker": "arb\\intl_en.arb",
@@ -408,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "state.freezed.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\models\\generated\\state.freezed.dart",
               "RelativeDocumentMoniker": "lib\\models\\generated\\state.freezed.dart",
@@ -420,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "config.freezed.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\models\\generated\\config.freezed.dart",
               "RelativeDocumentMoniker": "lib\\models\\generated\\config.freezed.dart",
@@ -432,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "state.g.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\models\\generated\\state.g.dart",
               "RelativeDocumentMoniker": "lib\\models\\generated\\state.g.dart",
@@ -444,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "config.g.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\models\\generated\\config.g.dart",
               "RelativeDocumentMoniker": "lib\\models\\generated\\config.g.dart",
@@ -456,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NotificationParams.kt",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\service\\src\\main\\java\\com\\follow\\clash\\service\\models\\NotificationParams.kt",
               "RelativeDocumentMoniker": "android\\service\\src\\main\\java\\com\\follow\\clash\\service\\models\\NotificationParams.kt",
@@ -468,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ServiceStateMachine.kt",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\app\\src\\main\\kotlin\\com\\follow\\clash\\ServiceStateMachine.kt",
               "RelativeDocumentMoniker": "android\\app\\src\\main\\kotlin\\com\\follow\\clash\\ServiceStateMachine.kt",
@@ -480,7 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "State.kt",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\app\\src\\main\\kotlin\\com\\follow\\clash\\models\\State.kt",
               "RelativeDocumentMoniker": "android\\app\\src\\main\\kotlin\\com\\follow\\clash\\models\\State.kt",
@@ -492,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "general.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\views\\config\\general.dart",
               "RelativeDocumentMoniker": "lib\\views\\config\\general.dart",
@@ -504,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "system.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\providers\\state\\system.dart",
               "RelativeDocumentMoniker": "lib\\providers\\state\\system.dart",
@@ -516,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "state.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\models\\state.dart",
               "RelativeDocumentMoniker": "lib\\models\\state.dart",
@@ -528,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "config.dart",
               "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\models\\config.dart",
               "RelativeDocumentMoniker": "lib\\models\\config.dart",

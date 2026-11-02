@@ -317,6 +317,27 @@ jobs:
           add-to-path: true
           link-to-sdk: true
 
+      - name: Configure temporary release signing
+        shell: bash
+        run: |
+          password="$(openssl rand -hex 24)"
+          mkdir -p android/app
+          touch android/local.properties
+          keytool -genkeypair -noprompt \
+            -keystore android/app/keystore.jks \
+            -storepass "$password" \
+            -keypass "$password" \
+            -alias flclash-ci \
+            -keyalg RSA \
+            -keysize 2048 \
+            -validity 3650 \
+            -dname "CN=FlClash CI"
+          {
+            echo "storePassword=$password"
+            echo "keyAlias=flclash-ci"
+            echo "keyPassword=$password"
+          } >> android/local.properties
+
       - name: Install Flutter dependencies
         run: flutter pub get
 
@@ -333,7 +354,7 @@ jobs:
       - name: Build split APKs
         env:
           ANDROID_NDK_HOME: ${{ steps.build-ndk.outputs.ndk-path }}
-        run: dart setup.dart android --env pre -v
+        run: dart setup.dart android --env stable -v
 
       - name: Upload APK artifacts
         uses: actions/upload-artifact@v4

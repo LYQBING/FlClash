@@ -1,0 +1,319 @@
+﻿Extracted web page content in markdown format:
+[Start contents for https://github.com/LYQBING/FlClash/actions/runs/41379734551]
+Skip to content 
+
+## Navigation Menu
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FLYQBING%2FFlClash%2Factions%2Fruns%2F41379734551)
+
+- 
+
+Products
+
+    - 
+
+Platform
+        - [![Image](https://github.githubassets.com/assets/platform-4ce65ae0bf273ce2.png)
+![Image](https://github.githubassets.com/assets/platform-dark-ac89fbf373737ed3.png)
+GitHubRepository hosting, code review, and collaboration](https://github.com/platform)
+        - [![Image](https://github.githubassets.com/assets/copilot-e2b89335a66dba00.png)
+![Image](https://github.githubassets.com/assets/copilot-dark-2b28403b6080e898.png)
+CopilotAI coding agent for tasks, projects and automated work](https://github.com/features/copilot)
+    - 
+
+Build & Ship
+        - [ActionsCI/CD and automation](https://github.com/features/actions)
+        - [Code QualityQuality analysis, fixes, and enforcement](https://github.com/features/code-quality)
+        - [CodespacesCloud development environments](https://github.com/features/codespaces)
+    - 
+
+Secure
+        - [Code SecurityVulnerability detection and remediation](https://github.com/security/advanced-security/code-security)
+        - [Secret ProtectionSecret scanning and leak prevention](https://github.com/security/advanced-security/secret-protection)
+[All Features](https://github.com/features)
+- 
+
+Developers
+
+    - 
+
+Learn
+        - [Documentation](https://docs.github.com/en)
+        - [Training](https://learn.github.com/skills)
+        - [Certifications](https://learn.github.com/credentials)
+    - 
+
+Build
+        - [Build with Copilot](https://github.com/features/ai)
+        - [Customize Copilot](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview)
+        - [Integrations](https://github.com/marketplace)
+    - 
+
+Explore
+        - [Trending repos](https://github.com/trending)
+        - [GitHub Sponsors](https://github.com/open-source/sponsors)
+        - [Events](https://github.com/resources/events)
+    - 
+
+Changelog
+        - [![Image](https://github.githubassets.com/assets/changelog-fd687bff072883b0.png)
+![Image](https://github.githubassets.com/assets/changelog-dark-b1c25ae971bd641b.png)
+ChangelogYour source for the latest features, improvements, and fixes across
+GitHub products, all in one place.](https://github.blog/changelog/)
+- 
+
+Businesses
+
+    - 
+
+By Stage
+        - [Enterprises](https://github.com/enterprise)
+        - [Team](https://github.com/team)
+        - [Startups](https://github.com/enterprise/startups)
+        - [Nonprofits](https://github.com/solutions/industry/nonprofits)
+    - 
+
+By Industry
+        - [Healthcare](https://github.com/solutions/industry/healthcare)
+        - [Financial services](https://github.com/solutions/industry/financial-services)
+        - [Manufacturing](https://github.com/solutions/industry/manufacturing)
+        - [Government](https://github.com/solutions/industry/government)
+        - [See all industries](https://github.com/solutions/industry)
+    - 
+
+Evaluate GitHub
+        - [Why GitHub](https://github.com/why-github)
+        - [Customer Stories](https://github.com/customer-stories)
+        - [Business insights](https://github.com/solutions/executive-insights)
+        - [Trust Center](https://github.com/trust-center)
+    - 
+
+Add-ons
+        - [GitHub Advanced SecurityEnterprise-grade code security](https://github.com/security/advanced-security)
+        - [Copilot for businessEnterprise-grade AI features](https://github.com/features/copilot/copilot-business)
+        - [Premium SupportEnterprise-grade 24/7 support](https://github.com/enterprise/premium-support)
+- 
+
+Resources
+
+    - 
+
+Learn & Connect
+        - [Documentation](https://docs.github.com/en)
+        - [Resource center](https://github.com/resources)
+        - [Blog](https://github.blog/)
+        - [Events & webinars](https://github.com/resources/events)
+        - [Community Forum](https://github.com/orgs/community/discussions)
+        - [Customer Stories](https://github.com/customer-stories)
+        - [Integrations](https://github.com/marketplace)
+    - 
+
+Support
+        - [Customer support](https://help.github.com/)
+        - [Training](https://learn.github.com/skills)
+        - [GitHub Status](https://www.githubstatus.com/)
+    - 
+
+Company
+        - [About](https://github.com/about)
+        - [Partners](https://github.com/partners)
+        - [Changelog](https://github.blog/changelog/)
+    - 
+
+GitHub Universe
+        - [![Image](https://github.githubassets.com/assets/universe-a98cd54821b27569.png)
+![Image](https://github.githubassets.com/assets/universe-a98cd54821b27569.png)
+GitHub UniverseThe event for developers, by developers — talks, workshops, and
+what’s next for GitHub.](https://githubuniverse.com/)
+- [Pricing](https://github.com/pricing)
+
+Search/
+
+[Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FLYQBING%2FFlClash%2Factions%2Fruns%2F41379734551)[
+Sign up](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Factions%2Fworkflow_runs%2Fshow&source=header-repo&source_repo=LYQBING%2FFlClash)
+
+Appearance settings
+
+You signed in with another tab or window. Reload to refresh your session. You
+signed out in another tab or window. Reload to refresh your session. You
+switched accounts on another tab or window. Reload to refresh your session. 
+Dismiss alert 
+
+1. [LYQBING](https://github.com/LYQBING)
+1. [FlClash](https://github.com/LYQBING/FlClash)
+
+## Repository navigation
+
+- 
+- [Code](https://github.com/LYQBING/FlClash)
+- [Pull requests](https://github.com/LYQBING/FlClash/pulls)
+- [Actions](https://github.com/LYQBING/FlClash/actions)
+- [Projects](https://github.com/LYQBING/FlClash/projects)
+- [Security and quality](https://github.com/LYQBING/FlClash/security)
+- [Insights](https://github.com/LYQBING/FlClash/pulse)
+
+More items
+
+[ build](https://github.com/LYQBING/FlClash/actions/workflows/build.yaml) 
+
+# -2 #3 
+
+[Sign in to view logs](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FLYQBING%2FFlClash%2Factions%2Fruns%2F41379734551) 
+
+- [Sign in to view logs](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FLYQBING%2FFlClash%2Factions%2Fruns%2F41379734551) 
+
+## Summary 
+
+# -2 
+
+## 
+
+-2 #3 
+
+### Uh oh! 
+
+
+
+There was an error while loading. Please reload this page.
+
+
+
+Triggered via push November 2, 2026 02:49 
+
+[![@LYQBING](https://avatars.githubusercontent.com/u/98566119?s=32&v=4)
+LYQBING](https://github.com/LYQBING) 
+
+pushed [ 4de710b ](https://github.com/LYQBING/FlClash/commit/4de710b0b3d087d5da61f7da50084bff4ed2d8ec) [
+main](https://github.com/LYQBING/FlClash/tree/refs/heads/main) 
+
+Status Success 
+
+Total duration [ 7m 41s ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/usage) 
+
+Artifacts – 
+
+## [build.yaml](https://github.com/LYQBING/FlClash/actions/runs/41379734551/workflow) 
+
+on: push 
+
+Matrix: build 
+
+1 job completed 
+
+Show all jobs 
+
+[ Dart 5m 15s ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678925) 
+Dart [ Plugins 1m 30s ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678985) 
+Plugins [ Go core 4m 2s ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679232) 
+Go core [ Android unit tests 5m 27s ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679093) 
+Android unit tests [ Rust 53s ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679070) 
+Rust [ Windows helper test 1m 1s ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678973) 
+Windows helper test 
+
+Matrix: desktop 
+
+3 jobs completed 
+
+Show all jobs 
+
+[ upload 0s ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125069114573) 
+upload 
+
+Oh hello! Nice to see you.
+
+Made with ❤️ by [humans.txt](https://actions.github.io/humans.txt)
+
+Fit to window 
+
+Zoom out 
+
+Zoom in 
+
+## Annotations
+
+10 warnings and 7 notices 
+| 
+
+[ Windows helper test ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678973#step:11:3) 
+
+Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: [https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/) Show more Show less | 
+| 
+
+[ Plugins ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678985#step:11:2) 
+
+Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: [https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/) Show more Show less | 
+| 
+
+[ Desktop linux ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678943#step:21:2) 
+
+Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-go@v5. For more information see: [https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/) Show more Show less | 
+| 
+
+[ Go core ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679232#step:11:2) 
+
+Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-go@v5. For more information see: [https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/) Show more Show less | 
+| 
+
+[ Desktop macos ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678826#step:21:5) 
+
+Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-go@v5. For more information see: [https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/) Show more Show less | 
+| 
+
+[ Dart ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678925#step:25:2) 
+
+Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: [https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/) Show more Show less | 
+| 
+
+[ Android unit tests ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679093#step:19:2) 
+
+Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-go@v5, actions/setup-java@v4. For more information see: [https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/) Show more Show less | 
+| 
+
+[ Android unit tests ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679093#step:7:22) 
+
+setup-java v4 is deprecated and will no longer receive updates. Please migrate to actions/setup-java@v5. Show more Show less | 
+| 
+
+[ Desktop windows ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679004#step:21:3) 
+
+Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-go@v5. For more information see: [https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/) Show more Show less | 
+| 
+
+[ Rust ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679070) 
+
+"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see [https://github.com/actions/runner-images/issues/14748](https://github.com/actions/runner-images/issues/14748)" Show more Show less | 
+| 
+
+[ Plugins ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678985) 
+
+"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see [https://github.com/actions/runner-images/issues/14748](https://github.com/actions/runner-images/issues/14748)" Show more Show less | 
+| 
+
+[ Desktop linux ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678943) 
+
+"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see [https://github.com/actions/runner-images/issues/14748](https://github.com/actions/runner-images/issues/14748)" Show more Show less | 
+| 
+
+[ Go core ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679232) 
+
+"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see [https://github.com/actions/runner-images/issues/14748](https://github.com/actions/runner-images/issues/14748)" Show more Show less | 
+| 
+
+[ Desktop macos ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678826) 
+
+Due to capacity constraints, jobs targeting macOS arm64 runners may experience longer queue times. Show more Show less | 
+| 
+
+[ Dart ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067678925) 
+
+"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see [https://github.com/actions/runner-images/issues/14748](https://github.com/actions/runner-images/issues/14748)" Show more Show less | 
+| 
+
+[ Android unit tests ](https://github.com/LYQBING/FlClash/actions/runs/41379734551/job/125067679093) 
+
+"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see [https://github.com/actions/runner-images/issues/14748](https://github.com/actions/runner-images/issues/14748)" Show more Show less | 
+
+You can’t perform that action at this time. 
+
+
+[End contents for https://github.com/LYQBING/FlClash/actions/runs/41379734551]
