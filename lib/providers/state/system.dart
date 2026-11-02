@@ -186,6 +186,7 @@ SharedState sharedState(Ref ref) {
       (state) => (
         onlyStatisticsProxy: state.onlyStatisticsProxy,
         showStopAction: state.showNotificationStopAction,
+        liveUpdateNotification: state.liveUpdateNotification,
         checkCertificate: state.checkCertificate,
       ),
     ),
@@ -200,6 +201,7 @@ SharedState sharedState(Ref ref) {
     currentProfileName: currentProfileName,
     onlyStatisticsProxy: onlyStatisticsProxy,
     showStopAction: appSetting.showStopAction,
+    liveUpdateNotification: appSetting.liveUpdateNotification,
     stopText: currentAppLocalizations.stop,
     stopTip: currentAppLocalizations.stopVpn,
     startTip: currentAppLocalizations.startVpn,

@@ -206,6 +206,7 @@
   "autoCloseConnectionsDesc": "Auto close connections drops open connections when you switch proxies.",
   "onlyStatisticsProxy": "Only count proxy traffic",
   "showNotificationStopAction": "Stop button in notification",
+  "liveUpdateNotification": "Live updates",
   "pureBlackMode": "Pure black mode",
   "sidebar": "Sidebar",
   "backgroundBlur": "Background blur",

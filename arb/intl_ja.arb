@@ -206,6 +206,7 @@
   "autoCloseConnectionsDesc": "プロキシを切り替えると、既存の接続を自動的に閉じます。",
   "onlyStatisticsProxy": "プロキシトラフィックのみ集計",
   "showNotificationStopAction": "通知に停止ボタンを表示",
+  "liveUpdateNotification": "リアルタイム通知",
   "pureBlackMode": "ピュアブラックモード",
   "sidebar": "サイドバー",
   "backgroundBlur": "背景のぼかし",

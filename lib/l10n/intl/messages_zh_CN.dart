@@ -1333,6 +1333,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "showNotificationStopAction": MessageLookupByLibrary.simpleMessage(
       "通知栏显示停止按钮",
     ),
+    "liveUpdateNotification": MessageLookupByLibrary.simpleMessage("实时通知"),
     "showPassword": MessageLookupByLibrary.simpleMessage("显示密码"),
     "sidebar": MessageLookupByLibrary.simpleMessage("侧边栏"),
     "sidebarBlurDesc": MessageLookupByLibrary.simpleMessage(

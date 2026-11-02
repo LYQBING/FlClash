@@ -206,6 +206,7 @@
   "autoCloseConnectionsDesc": "Автозакрытие соединений обрывает открытые соединения при смене прокси.",
   "onlyStatisticsProxy": "Учитывать только трафик прокси",
   "showNotificationStopAction": "Кнопка остановки в уведомлении",
+  "liveUpdateNotification": "Уведомления в реальном времени",
   "pureBlackMode": "Чисто чёрный режим",
   "sidebar": "Боковая панель",
   "backgroundBlur": "Размытие фона",

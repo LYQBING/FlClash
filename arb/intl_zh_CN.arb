@@ -206,6 +206,7 @@
   "autoCloseConnectionsDesc": "自动关闭连接会在切换代理后断开已有连接。",
   "onlyStatisticsProxy": "仅统计代理流量",
   "showNotificationStopAction": "通知栏显示停止按钮",
+  "liveUpdateNotification": "实时通知",
   "pureBlackMode": "纯黑模式",
   "sidebar": "侧边栏",
   "backgroundBlur": "背景模糊",

@@ -1470,6 +1470,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "showNotificationStopAction": MessageLookupByLibrary.simpleMessage(
       "通知に停止ボタンを表示",
     ),
+    "liveUpdateNotification": MessageLookupByLibrary.simpleMessage(
+      "リアルタイム通知",
+    ),
     "showPassword": MessageLookupByLibrary.simpleMessage("パスワードを表示"),
     "sidebar": MessageLookupByLibrary.simpleMessage("サイドバー"),
     "sidebarBlurDesc": MessageLookupByLibrary.simpleMessage(

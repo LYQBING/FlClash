@@ -1441,6 +1441,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "showNotificationStopAction": MessageLookupByLibrary.simpleMessage(
       "알림에 중지 버튼 표시",
     ),
+    "liveUpdateNotification": MessageLookupByLibrary.simpleMessage("실시간 알림"),
     "showPassword": MessageLookupByLibrary.simpleMessage("비밀번호 표시"),
     "sidebar": MessageLookupByLibrary.simpleMessage("사이드바"),
     "sidebarBlurDesc": MessageLookupByLibrary.simpleMessage(

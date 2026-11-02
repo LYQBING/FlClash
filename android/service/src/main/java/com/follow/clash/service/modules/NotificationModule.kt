@@ -36,6 +36,7 @@ private data class ExtendedNotificationParams(
     val stopText: String,
     val showStopAction: Boolean,
     val contentText: String,
+    val liveUpdateNotification: Boolean,
 )
 
 private val NotificationParams.extended: ExtendedNotificationParams
@@ -44,6 +45,7 @@ private val NotificationParams.extended: ExtendedNotificationParams
         stopText,
         showStopAction,
         Core.getSpeedTrafficText(onlyStatisticsProxy),
+        liveUpdateNotification,
     )
 
 internal class NotificationModule(
@@ -115,6 +117,7 @@ internal class NotificationModule(
             with(notificationBuilder) {
                 setContentTitle(params.title)
                 setContentText(params.contentText)
+                setRequestPromotedOngoing(params.liveUpdateNotification)
                 clearActions()
                 if (params.showStopAction) {
                     addAction(0, params.stopText, stopIntent)

@@ -280,6 +280,12 @@ class GeneralView extends ConsumerWidget {
           update: (state, value) =>
               state.copyWith(showNotificationStopAction: value),
         ),
+        _appSettingToggle(
+          title: (l) => l.liveUpdateNotification,
+          select: (state) => state.liveUpdateNotification,
+          update: (state, value) =>
+              state.copyWith(liveUpdateNotification: value),
+        ),
       ],
     ];
   }

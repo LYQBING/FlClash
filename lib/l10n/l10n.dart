@@ -1616,6 +1616,16 @@ class AppLocalizations {
     );
   }
 
+  /// `Live updates`
+  String get liveUpdateNotification {
+    return Intl.message(
+      'Live updates',
+      name: 'liveUpdateNotification',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Pure black mode`
   String get pureBlackMode {
     return Intl.message(

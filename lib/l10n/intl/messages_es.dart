@@ -1848,6 +1848,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "showNotificationStopAction": MessageLookupByLibrary.simpleMessage(
       "Botón de detener en la notificación",
     ),
+    "liveUpdateNotification": MessageLookupByLibrary.simpleMessage(
+      "Notificaciones en tiempo real",
+    ),
     "showPassword": MessageLookupByLibrary.simpleMessage("Mostrar contraseña"),
     "sidebar": MessageLookupByLibrary.simpleMessage("Barra lateral"),
     "sidebarBlurDesc": MessageLookupByLibrary.simpleMessage(

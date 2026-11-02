@@ -206,6 +206,7 @@
   "autoCloseConnectionsDesc": "Cerrar conexiones automáticamente corta las conexiones abiertas al cambiar de proxy.",
   "onlyStatisticsProxy": "Contar solo el tráfico del proxy",
   "showNotificationStopAction": "Botón de detener en la notificación",
+  "liveUpdateNotification": "Notificaciones en tiempo real",
   "pureBlackMode": "Modo negro puro",
   "sidebar": "Barra lateral",
   "backgroundBlur": "Desenfoque de fondo",
