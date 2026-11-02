@@ -199,6 +199,15 @@ class ServiceStateMachineTest {
     }
 
     @Test
+    fun `notification params carry the live update switch`() {
+        val params = ServiceStateMachine.notificationParams(
+            SharedState(liveUpdateNotification = true),
+        )
+
+        assertEquals(true, params.liveUpdateNotification)
+    }
+
+    @Test
     fun `the run time is reported only while a run is both requested and up`() = runTest {
         val host = FakeHost(backgroundScope)
         val machine = ServiceStateMachine(host)

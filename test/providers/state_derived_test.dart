@@ -999,6 +999,16 @@ void main() {
     expect(container.read(sharedStateProvider).showStopAction, false);
   });
 
+  test('shared state carries the live update notification switch', () async {
+    container.listen(sharedStateProvider, (_, _) {});
+    expect(container.read(sharedStateProvider).liveUpdateNotification, false);
+
+    container
+        .read(appSettingProvider.notifier)
+        .update((state) => state.copyWith(liveUpdateNotification: true));
+    expect(container.read(sharedStateProvider).liveUpdateNotification, true);
+  });
+
   test('shared state follows the locale whose messages are loaded', () async {
     container.listen(sharedStateProvider, (_, _) {});
     await AppLocalizations.load(const Locale('en'));

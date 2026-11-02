@@ -37,6 +37,7 @@ class ServiceConfigTest {
         assertEquals("STOP", defaults.stopText)
         assertEquals(false, defaults.onlyStatisticsProxy)
         assertEquals(true, defaults.showStopAction)
+        assertEquals(false, defaults.liveUpdateNotification)
     }
 
     @Test
@@ -56,6 +57,7 @@ class ServiceConfigTest {
             title = "Profile",
             stopText = "Halt",
             onlyStatisticsProxy = true,
+            liveUpdateNotification = true,
         )
 
         ServiceConfig.updateNotificationParams(params)

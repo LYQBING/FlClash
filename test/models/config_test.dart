@@ -124,6 +124,7 @@ void main() {
         AppSettingProps.fromJson,
       );
       expect(restored.onlyStatisticsProxy, false);
+      expect(restored.liveUpdateNotification, false);
       expect(restored.autoLaunch, false);
       expect(restored.silentLaunch, false);
       expect(restored.autoRun, false);
@@ -255,6 +256,7 @@ void main() {
       const props = AppSettingProps(
         locale: 'zh_CN',
         onlyStatisticsProxy: true,
+        liveUpdateNotification: true,
         autoLaunch: true,
         closeConnections: false,
         userAgents: ['CustomUA/1.0'],
@@ -266,6 +268,7 @@ void main() {
       );
       expect(restored.locale, 'zh_CN');
       expect(restored.onlyStatisticsProxy, true);
+      expect(restored.liveUpdateNotification, true);
       expect(restored.autoLaunch, true);
       expect(restored.closeConnections, false);
       expect(restored.userAgents, ['CustomUA/1.0']);

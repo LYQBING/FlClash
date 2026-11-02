@@ -112,6 +112,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\lib\\l10n\\intl\\messages_ru.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\l10n\\intl\\messages_ru.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\test\\models\\config_test.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\models\\config_test.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\test\\providers\\state_derived_test.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test\\providers\\state_derived_test.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\service\\ServiceConfigTest.kt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:android\\tests\\service\\ServiceConfigTest.kt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\SharedStateTest.kt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:android\\tests\\app\\SharedStateTest.kt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\ServiceStateMachineTest.kt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:android\\tests\\app\\ServiceStateMachineTest.kt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -121,8 +141,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ServiceStateMachineTest.kt",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\ServiceStateMachineTest.kt",
+              "RelativeDocumentMoniker": "android\\tests\\app\\ServiceStateMachineTest.kt",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\ServiceStateMachineTest.kt",
+              "RelativeToolTip": "android\\tests\\app\\ServiceStateMachineTest.kt",
+              "ViewState": "AgIAAM8AAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-02T01:14:39.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SharedStateTest.kt",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\SharedStateTest.kt",
+              "RelativeDocumentMoniker": "android\\tests\\app\\SharedStateTest.kt",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\app\\SharedStateTest.kt",
+              "RelativeToolTip": "android\\tests\\app\\SharedStateTest.kt",
+              "ViewState": "AgIAADMAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-02T01:14:38.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ServiceConfigTest.kt",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\service\\ServiceConfigTest.kt",
+              "RelativeDocumentMoniker": "android\\tests\\service\\ServiceConfigTest.kt",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\service\\ServiceConfigTest.kt",
+              "RelativeToolTip": "android\\tests\\service\\ServiceConfigTest.kt",
+              "ViewState": "AgIAACcAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-02T01:14:38.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "state_derived_test.dart",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\test\\providers\\state_derived_test.dart",
+              "RelativeDocumentMoniker": "test\\providers\\state_derived_test.dart",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\test\\providers\\state_derived_test.dart",
+              "RelativeToolTip": "test\\providers\\state_derived_test.dart",
+              "ViewState": "AgIAAPEDAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-02T01:14:38.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "config_test.dart",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\test\\models\\config_test.dart",
+              "RelativeDocumentMoniker": "test\\models\\config_test.dart",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\test\\models\\config_test.dart",
+              "RelativeToolTip": "test\\models\\config_test.dart",
+              "ViewState": "AgIAAH4AAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-02T01:14:38.558Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -143,8 +228,7 @@
               "RelativeToolTip": "lib\\l10n\\intl\\messages_ru.dart",
               "ViewState": "AgIAAAEHAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:33.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:33.449Z"
             },
             {
               "$type": "Document",
@@ -156,8 +240,7 @@
               "RelativeToolTip": "lib\\l10n\\intl\\messages_ko.dart",
               "ViewState": "AgIAAKMFAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:33.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:33.386Z"
             },
             {
               "$type": "Document",
@@ -169,8 +252,7 @@
               "RelativeToolTip": "lib\\l10n\\intl\\messages_ja.dart",
               "ViewState": "AgIAAMIFAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:32.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:32.735Z"
             },
             {
               "$type": "Document",
@@ -182,8 +264,7 @@
               "RelativeToolTip": "lib\\l10n\\intl\\messages_fr.dart",
               "ViewState": "AgIAADkHAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:32.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:32.672Z"
             },
             {
               "$type": "Document",
@@ -195,8 +276,7 @@
               "RelativeToolTip": "lib\\l10n\\intl\\messages_es.dart",
               "ViewState": "AgIAADwHAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:32.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:32.579Z"
             },
             {
               "$type": "Document",
@@ -208,8 +288,7 @@
               "RelativeToolTip": "lib\\l10n\\intl\\messages_zh_CN.dart",
               "ViewState": "AgIAADcFAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:32.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:32.515Z"
             },
             {
               "$type": "Document",
@@ -221,8 +300,7 @@
               "RelativeToolTip": "lib\\l10n\\intl\\messages_en.dart",
               "ViewState": "AgIAALEGAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:32.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:32.453Z"
             },
             {
               "$type": "Document",
@@ -234,8 +312,7 @@
               "RelativeToolTip": "lib\\l10n\\l10n.dart",
               "ViewState": "AgIAAFoGAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:41:32.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:41:32.374Z"
             },
             {
               "$type": "Document",
@@ -247,8 +324,7 @@
               "RelativeToolTip": "android\\service\\src\\main\\java\\com\\follow\\clash\\service\\modules\\NotificationModule.kt",
               "ViewState": "AgIAACYAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:40:37.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:40:37.035Z"
             },
             {
               "$type": "Document",
@@ -260,8 +336,7 @@
               "RelativeToolTip": "arb\\intl_ru.arb",
               "ViewState": "AgIAANAAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:39:34.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:39:34.953Z"
             },
             {
               "$type": "Document",
@@ -273,8 +348,7 @@
               "RelativeToolTip": "arb\\intl_ko.arb",
               "ViewState": "AgIAANAAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:39:34.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:39:34.89Z"
             },
             {
               "$type": "Document",
@@ -286,8 +360,7 @@
               "RelativeToolTip": "arb\\intl_ja.arb",
               "ViewState": "AgIAANAAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:39:34.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:39:34.813Z"
             },
             {
               "$type": "Document",
@@ -299,8 +372,7 @@
               "RelativeToolTip": "arb\\intl_fr.arb",
               "ViewState": "AgIAANAAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:39:34.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:39:34.766Z"
             },
             {
               "$type": "Document",
@@ -312,8 +384,7 @@
               "RelativeToolTip": "arb\\intl_es.arb",
               "ViewState": "AgIAANAAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:39:34.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:39:34.677Z"
             },
             {
               "$type": "Document",
@@ -325,8 +396,7 @@
               "RelativeToolTip": "arb\\intl_zh_CN.arb",
               "ViewState": "AgIAANAAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:39:34.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:39:34.627Z"
             },
             {
               "$type": "Document",
@@ -338,8 +408,7 @@
               "RelativeToolTip": "arb\\intl_en.arb",
               "ViewState": "AgIAANAAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:39:34.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:39:34.428Z"
             },
             {
               "$type": "Document",
@@ -349,7 +418,7 @@
               "RelativeDocumentMoniker": "lib\\models\\generated\\state.freezed.dart",
               "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\models\\generated\\state.freezed.dart",
               "RelativeToolTip": "lib\\models\\generated\\state.freezed.dart",
-              "ViewState": "AgIAAKwUAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFwVAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-11-02T00:39:19.301Z",
               "EditorCaption": ""
@@ -362,7 +431,7 @@
               "RelativeDocumentMoniker": "lib\\models\\generated\\config.freezed.dart",
               "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\models\\generated\\config.freezed.dart",
               "RelativeToolTip": "lib\\models\\generated\\config.freezed.dart",
-              "ViewState": "AgIAAAcCAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANABAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-11-02T00:38:26.957Z",
               "EditorCaption": ""
@@ -377,8 +446,7 @@
               "RelativeToolTip": "lib\\models\\generated\\state.g.dart",
               "ViewState": "AgIAABYAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:38:26.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:38:26.908Z"
             },
             {
               "$type": "Document",
@@ -390,8 +458,7 @@
               "RelativeToolTip": "lib\\models\\generated\\config.g.dart",
               "ViewState": "AgIAABoAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:38:26.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:38:26.831Z"
             },
             {
               "$type": "Document",
@@ -403,8 +470,7 @@
               "RelativeToolTip": "android\\service\\src\\main\\java\\com\\follow\\clash\\service\\models\\NotificationParams.kt",
               "ViewState": "AgIAAAcAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:29:38.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:29:38.126Z"
             },
             {
               "$type": "Document",
@@ -416,8 +482,7 @@
               "RelativeToolTip": "android\\app\\src\\main\\kotlin\\com\\follow\\clash\\ServiceStateMachine.kt",
               "ViewState": "AgIAAHsBAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:29:38.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:29:38.079Z"
             },
             {
               "$type": "Document",
@@ -429,8 +494,7 @@
               "RelativeToolTip": "android\\app\\src\\main\\kotlin\\com\\follow\\clash\\models\\State.kt",
               "ViewState": "AgIAAA4AAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:29:35.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:29:35.386Z"
             },
             {
               "$type": "Document",
@@ -442,8 +506,7 @@
               "RelativeToolTip": "lib\\views\\config\\general.dart",
               "ViewState": "AgIAAB8BAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:29:35.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:29:35.292Z"
             },
             {
               "$type": "Document",
@@ -455,8 +518,7 @@
               "RelativeToolTip": "lib\\providers\\state\\system.dart",
               "ViewState": "AgIAALwAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:29:35.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:29:35.238Z"
             },
             {
               "$type": "Document",
@@ -468,8 +530,7 @@
               "RelativeToolTip": "lib\\models\\state.dart",
               "ViewState": "AgIAAMAAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:29:34.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:29:34.755Z"
             },
             {
               "$type": "Document",
@@ -481,8 +542,7 @@
               "RelativeToolTip": "lib\\models\\config.dart",
               "ViewState": "AgIAAOYAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:29:34.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T00:29:34.499Z"
             }
           ]
         }
