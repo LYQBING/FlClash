@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "E:\\Users Data\\Desktop\\FlClash-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LYQBING\\.copilot\\plans\\plan-android-live-update.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LYQBING\\.copilot\\plans\\plan-android-live-update.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MardownSecureEdit"
@@ -142,6 +142,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\.github\\workflows\\build.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\build.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\android\\app\\src\\main\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:android\\app\\src\\main\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\android\\app\\src\\main\\kotlin\\com\\follow\\clash\\plugins\\AppPlugin.kt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:android\\app\\src\\main\\kotlin\\com\\follow\\clash\\plugins\\AppPlugin.kt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Users Data\\Desktop\\FlClash-main\\lib\\plugins\\app.dart||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\plugins\\app.dart||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -151,11 +163,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 38,
+              "Title": "app.dart",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\plugins\\app.dart",
+              "RelativeDocumentMoniker": "lib\\plugins\\app.dart",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\plugins\\app.dart",
+              "RelativeToolTip": "lib\\plugins\\app.dart",
+              "ViewState": "AgIAAKoAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-02T04:45:16.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AppPlugin.kt",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\app\\src\\main\\kotlin\\com\\follow\\clash\\plugins\\AppPlugin.kt",
+              "RelativeDocumentMoniker": "android\\app\\src\\main\\kotlin\\com\\follow\\clash\\plugins\\AppPlugin.kt",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\android\\app\\src\\main\\kotlin\\com\\follow\\clash\\plugins\\AppPlugin.kt",
+              "RelativeToolTip": "android\\app\\src\\main\\kotlin\\com\\follow\\clash\\plugins\\AppPlugin.kt",
+              "ViewState": "AgIAADABAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-02T04:44:55.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "E:\\Users Data\\Desktop\\FlClash-main\\android\\app\\src\\main\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "android\\app\\src\\main\\AndroidManifest.xml",
+              "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\android\\app\\src\\main\\AndroidManifest.xml",
+              "RelativeToolTip": "android\\app\\src\\main\\AndroidManifest.xml",
+              "ViewState": "AgIAABwAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-11-02T04:44:55.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "plan-android-live-update.md [\u9884\u89C8]",
               "DocumentMoniker": "C:\\Users\\LYQBING\\.copilot\\plans\\plan-android-live-update.md",
               "ToolTip": "C:\\Users\\LYQBING\\.copilot\\plans\\plan-android-live-update.md [\u9884\u89C8]",
@@ -173,8 +224,7 @@
               "RelativeToolTip": ".github\\workflows\\build.yaml",
               "ViewState": "AgIAAFMBAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2026-11-02T03:05:18.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T03:05:18.155Z"
             },
             {
               "$type": "Document",
@@ -219,7 +269,7 @@
               "RelativeDocumentMoniker": "android\\tests\\service\\ServiceConfigTest.kt",
               "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\android\\tests\\service\\ServiceConfigTest.kt",
               "RelativeToolTip": "android\\tests\\service\\ServiceConfigTest.kt",
-              "ViewState": "AgIAAAMAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-11-02T01:14:38.681Z",
               "EditorCaption": ""
@@ -250,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "plan-android.md [\u9884\u89C8]",
               "DocumentMoniker": "C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md",
               "ToolTip": "C:\\Users\\LYQBING\\.copilot\\plans\\plan-android.md [\u9884\u89C8]",
@@ -362,7 +412,7 @@
               "RelativeDocumentMoniker": "android\\service\\src\\main\\java\\com\\follow\\clash\\service\\modules\\NotificationModule.kt",
               "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\android\\service\\src\\main\\java\\com\\follow\\clash\\service\\modules\\NotificationModule.kt",
               "RelativeToolTip": "android\\service\\src\\main\\java\\com\\follow\\clash\\service\\modules\\NotificationModule.kt",
-              "ViewState": "AgIAAAkAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-11-02T00:40:37.035Z",
               "EditorCaption": ""
@@ -543,9 +593,10 @@
               "RelativeDocumentMoniker": "lib\\views\\config\\general.dart",
               "ToolTip": "E:\\Users Data\\Desktop\\FlClash-main\\lib\\views\\config\\general.dart",
               "RelativeToolTip": "lib\\views\\config\\general.dart",
-              "ViewState": "AgIAAB8BAAAAAAAAAABEwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAABEwAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-11-02T00:29:35.292Z"
+              "WhenOpened": "2026-11-02T00:29:35.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

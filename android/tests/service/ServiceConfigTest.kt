@@ -32,9 +32,10 @@ private fun vpnOptions(port: Int) = VpnOptions(
 class ServiceConfigTest {
     @Test
     fun `live update is only enabled on Android 16 and newer`() {
-        assertEquals(false, shouldUseLiveUpdate(true, 35))
-        assertEquals(true, shouldUseLiveUpdate(true, 36))
-        assertEquals(false, shouldUseLiveUpdate(false, 36))
+        assertEquals(false, shouldUseLiveUpdate(true, 35, true))
+        assertEquals(true, shouldUseLiveUpdate(true, 36, true))
+        assertEquals(false, shouldUseLiveUpdate(true, 36, false))
+        assertEquals(false, shouldUseLiveUpdate(false, 36, true))
     }
 
     @Test

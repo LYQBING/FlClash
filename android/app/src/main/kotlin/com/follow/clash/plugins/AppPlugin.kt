@@ -104,8 +104,6 @@ class AppPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, ActivityAware 
         }
     }
 
-    private var skipNotificationPermissionRequest = false
-
     @Suppress("DEPRECATION")
     private val isTelevision by lazy {
         val packageManager = GlobalState.application.packageManager
@@ -203,6 +201,14 @@ class AppPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, ActivityAware 
                 result.success(openAppSettings())
             }
 
+            "canPostPromotedNotifications" -> {
+                result.success(canPostPromotedNotifications())
+            }
+
+            "openPromotedNotificationSettings" -> {
+                result.success(openPromotedNotificationSettings())
+            }
+
             "getLastExitInfo" -> reply(result) {
                 GlobalState.lastExitInfo()
             }
@@ -273,6 +279,31 @@ class AppPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, ActivityAware 
         }
     }
 
+    private fun canPostPromotedNotifications(): Boolean =
+        Build.VERSION.SDK_INT < 36 ||
+            getSystemService(GlobalState.application, android.app.NotificationManager::class.java)
+                ?.canPostPromotedNotifications() == true
+
+    private fun openPromotedNotificationSettings(): Boolean {
+        val activity = activity ?: return false
+        val appPackage = GlobalState.application.packageName
+        val intent = if (Build.VERSION.SDK_INT >= 36) {
+            Intent(Settings.ACTION_MANAGE_APP_PROMOTED_NOTIFICATIONS).apply {
+                putExtra(Settings.EXTRA_APP_PACKAGE, appPackage)
+            }
+        } else {
+            Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS).apply {
+                putExtra(Settings.EXTRA_APP_PACKAGE, appPackage)
+            }
+        }
+        return try {
+            activity.startActivity(intent)
+            true
+        } catch (_: Exception) {
+            openAppSettings()
+        }
+    }
+
     @Suppress("DEPRECATION")
     private fun updateExcludeFromRecents(value: Boolean?) {
         val taskId = activity?.taskId ?: return
@@ -294,7 +325,7 @@ class AppPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, ActivityAware 
                 GlobalState.application,
                 Manifest.permission.POST_NOTIFICATIONS,
             )
-            if (permission == PackageManager.PERMISSION_GRANTED || skipNotificationPermissionRequest) {
+            if (permission == PackageManager.PERMISSION_GRANTED) {
                 invokeRequestNotificationCallback(true)
                 return@onMainThread
             }
@@ -308,7 +339,7 @@ class AppPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, ActivityAware 
                     arrayOf(Manifest.permission.POST_NOTIFICATIONS),
                     NOTIFICATION_PERMISSION_REQUEST_CODE,
                 )
-            } ?: invokeRequestNotificationCallback(true)
+            } ?: invokeRequestNotificationCallback(false)
             return@onMainThread
         }
         invokeRequestNotificationCallback(true)
@@ -511,8 +542,10 @@ class AppPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, ActivityAware 
         grantResults: IntArray,
     ): Boolean = when (requestCode) {
         NOTIFICATION_PERMISSION_REQUEST_CODE -> {
-            skipNotificationPermissionRequest = true
-            invokeRequestNotificationCallback(true)
+            invokeRequestNotificationCallback(
+                grantResults.isNotEmpty() &&
+                    grantResults[0] == PackageManager.PERMISSION_GRANTED,
+            )
             true
         }
 

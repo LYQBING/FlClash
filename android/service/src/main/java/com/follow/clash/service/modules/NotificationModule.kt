@@ -1,6 +1,7 @@
 package com.follow.clash.service.modules
 
 import android.app.Notification.FOREGROUND_SERVICE_IMMEDIATE
+import android.app.NotificationManager
 import android.app.Service
 import android.app.Service.STOP_FOREGROUND_REMOVE
 import android.content.Intent
@@ -38,19 +39,25 @@ private data class ExtendedNotificationParams(
     val showStopAction: Boolean,
     val contentText: String,
     val liveUpdateNotification: Boolean,
+    val canPostPromotedNotifications: Boolean,
 )
 
-internal fun shouldUseLiveUpdate(enabled: Boolean, sdkInt: Int): Boolean =
-    enabled && sdkInt >= 36
+internal fun shouldUseLiveUpdate(
+    enabled: Boolean,
+    sdkInt: Int,
+    canPostPromotedNotifications: Boolean,
+): Boolean = enabled && sdkInt >= 36 && canPostPromotedNotifications
 
-private val NotificationParams.extended: ExtendedNotificationParams
-    get() = ExtendedNotificationParams(
-        title,
-        stopText,
-        showStopAction,
-        Core.getSpeedTrafficText(onlyStatisticsProxy),
-        liveUpdateNotification,
-    )
+private fun NotificationParams.extended(
+    canPostPromotedNotifications: Boolean,
+): ExtendedNotificationParams = ExtendedNotificationParams(
+    title,
+    stopText,
+    showStopAction,
+    Core.getSpeedTrafficText(onlyStatisticsProxy),
+    liveUpdateNotification,
+    canPostPromotedNotifications,
+)
 
 internal class NotificationModule(
     private val service: Service,
@@ -58,7 +65,7 @@ internal class NotificationModule(
 ) : ServiceModule {
     override fun start() {
         service.ensureNotificationChannel()
-        update(ServiceConfig.notificationParams.value.extended)
+        update(ServiceConfig.notificationParams.value.extended(canPostPromotedNotifications()))
         scope.launch {
             // Some ROMs, vivo's among them, drop updates posted behind the
             // keyguard, so unlocking restarts the loop to post once more.
@@ -83,7 +90,7 @@ internal class NotificationModule(
                     },
                     ServiceConfig.notificationParams,
                 ) { _, params ->
-                    params.extended
+                    params.extended(canPostPromotedNotifications())
                 }.distinctUntilChanged()
                     .collect(::update)
             }
@@ -92,6 +99,11 @@ internal class NotificationModule(
 
     private fun isScreenOn() =
         service.getSystemService<PowerManager>()?.isInteractive ?: true
+
+    private fun canPostPromotedNotifications(): Boolean =
+        Build.VERSION.SDK_INT >= 36 &&
+            service.getSystemService<NotificationManager>()
+                ?.canPostPromotedNotifications() == true
 
     private val notificationBuilder: NotificationCompat.Builder by lazy {
         val intent = Intent().setComponent(Components.mainActivity)
@@ -132,6 +144,7 @@ internal class NotificationModule(
         val liveUpdate = shouldUseLiveUpdate(
             params.liveUpdateNotification,
             Build.VERSION.SDK_INT,
+            params.canPostPromotedNotifications,
         )
         service.startForeground(
             with(notificationBuilder) {

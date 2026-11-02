@@ -156,6 +156,20 @@ class App {
     return methodChannel.invokeMethod<bool>('openAppSettings');
   }
 
+  Future<bool> canPostPromotedNotifications() async {
+    return await methodChannel.invokeMethod<bool>(
+          'canPostPromotedNotifications',
+        ) ??
+        false;
+  }
+
+  Future<bool?> openPromotedNotificationSettings() async {
+    if (!Platform.isAndroid) return false;
+    return methodChannel.invokeMethod<bool>(
+      'openPromotedNotificationSettings',
+    );
+  }
+
   Future<AppExitInfo?> getLastExitInfo() async {
     try {
       final raw = await methodChannel

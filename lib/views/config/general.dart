@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:fl_clash/common/common.dart';
 import 'package:fl_clash/enum/enum.dart';
 import 'package:fl_clash/features/form/form.dart';
@@ -237,6 +239,34 @@ ConfigToggleItem _appSettingToggle({
   );
 }
 
+class _LiveUpdateNotificationItem extends ConsumerWidget {
+  const _LiveUpdateNotificationItem();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return ConfigToggleItem(
+      title: (l) => l.liveUpdateNotification,
+      selector: appSettingProvider.select(
+        (state) => state.liveUpdateNotification,
+      ),
+      onChanged: (ref, value) {
+        ref
+            .read(appSettingProvider.notifier)
+            .update((state) => state.copyWith(liveUpdateNotification: value));
+        if (value) {
+          unawaited(_openSettingsIfNeeded());
+        }
+      },
+    );
+  }
+
+  Future<void> _openSettingsIfNeeded() async {
+    if (!await app!.canPostPromotedNotifications()) {
+      await app!.openPromotedNotificationSettings();
+    }
+  }
+}
+
 class GeneralView extends ConsumerWidget {
   const GeneralView({super.key});
 
@@ -280,12 +310,7 @@ class GeneralView extends ConsumerWidget {
           update: (state, value) =>
               state.copyWith(showNotificationStopAction: value),
         ),
-        _appSettingToggle(
-          title: (l) => l.liveUpdateNotification,
-          select: (state) => state.liveUpdateNotification,
-          update: (state, value) =>
-              state.copyWith(liveUpdateNotification: value),
-        ),
+        const _LiveUpdateNotificationItem(),
       ],
     ];
   }
