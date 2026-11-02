@@ -288,7 +288,7 @@ class AppPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, ActivityAware 
         val activity = activity ?: return false
         val appPackage = GlobalState.application.packageName
         val intent = if (Build.VERSION.SDK_INT >= 36) {
-            Intent(Settings.ACTION_MANAGE_APP_PROMOTED_NOTIFICATIONS).apply {
+            Intent("android.settings.APP_NOTIFICATION_PROMOTION_SETTINGS").apply {
                 putExtra(Settings.EXTRA_APP_PACKAGE, appPackage)
             }
         } else {

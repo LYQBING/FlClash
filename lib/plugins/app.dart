@@ -158,8 +158,8 @@ class App {
 
   Future<bool> canPostPromotedNotifications() async {
     return await methodChannel.invokeMethod<bool>(
-          'canPostPromotedNotifications',
-        ) ??
+      'canPostPromotedNotifications',
+    ) ??
         false;
   }
 
