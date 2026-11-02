@@ -157,10 +157,10 @@ class App {
   }
 
   Future<bool> canPostPromotedNotifications() async {
-    return await methodChannel.invokeMethod<bool>(
-          'canPostPromotedNotifications',
-        ) ??
-        false;
+    final result = await methodChannel.invokeMethod<bool>(
+      'canPostPromotedNotifications',
+    );
+    return result ?? false;
   }
 
   Future<bool?> openPromotedNotificationSettings() async {
